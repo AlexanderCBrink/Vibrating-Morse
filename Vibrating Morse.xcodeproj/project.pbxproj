@@ -13,6 +13,7 @@
 		116C8FD81FCC533E00F75DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116C8FD71FCC533E00F75DB2 /* Assets.xcassets */; };
 		116C8FDB1FCC533E00F75DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116C8FD91FCC533E00F75DB2 /* LaunchScreen.storyboard */; };
 		116C8FE61FCC533E00F75DB2 /* Vibrating_MorseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C8FE51FCC533E00F75DB2 /* Vibrating_MorseTests.swift */; };
+		428DCF951FCC562600D69DE6 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428DCF941FCC562500D69DE6 /* ServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		116C8FE11FCC533E00F75DB2 /* Vibrating MorseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vibrating MorseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		116C8FE51FCC533E00F75DB2 /* Vibrating_MorseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibrating_MorseTests.swift; sourceTree = "<group>"; };
 		116C8FE71FCC533E00F75DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428DCF941FCC562500D69DE6 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				116C8FD01FCC533E00F75DB2 /* AppDelegate.swift */,
 				116C8FD21FCC533E00F75DB2 /* ViewController.swift */,
 				116C8FD41FCC533E00F75DB2 /* Main.storyboard */,
+				428DCF941FCC562500D69DE6 /* ServiceManager.swift */,
 				116C8FD71FCC533E00F75DB2 /* Assets.xcassets */,
 				116C8FD91FCC533E00F75DB2 /* LaunchScreen.storyboard */,
 				116C8FDC1FCC533E00F75DB2 /* Info.plist */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				116C8FD31FCC533E00F75DB2 /* ViewController.swift in Sources */,
+				428DCF951FCC562600D69DE6 /* ServiceManager.swift in Sources */,
 				116C8FD11FCC533E00F75DB2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,10 +358,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JJQ8ASGK3A;
+				DEVELOPMENT_TEAM = 39M3P47GCS;
 				INFOPLIST_FILE = "Vibrating Morse/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Andile.Vibrating-Morse";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.Andile.VibratingMorse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -369,10 +374,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JJQ8ASGK3A;
+				DEVELOPMENT_TEAM = 39M3P47GCS;
 				INFOPLIST_FILE = "Vibrating Morse/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Andile.Vibrating-Morse";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.Andile.VibratingMorse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
